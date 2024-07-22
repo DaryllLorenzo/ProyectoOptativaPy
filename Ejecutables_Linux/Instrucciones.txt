@@ -1,0 +1,8 @@
+1- Darle permiso a los archivos para ser ejecutables,
+usualmente en propiedades del archivo, apartado de permisos
+marcar la casilla
+2- Abrir una terminal en la carpeta donde esta el ejecutable
+3- Ejecutar para correr el ejecutable (no inlcuir los <>)
+	./<nombre_del_archivo> 
+
+ 
