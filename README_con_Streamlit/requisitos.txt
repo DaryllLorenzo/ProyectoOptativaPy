@@ -1,0 +1,5 @@
+tener Streamlit instalado: pip install Streamlit
+
+para abrir:
+abrir la carpeta del archivo por cmd o terminal y escribir
+Streamlit run <nombre del archivo>
