@@ -1,0 +1,2 @@
+Windows: pyinstaller --onefile --add-data "seed-seeding.gif;." --add-data "farming-farm.gif;." --add-data "RSC_0.png;." --add-data "RSC_1.png;." --add-data "RSC_2.png;." --add-data "RSC_3.png;." --add-data "RSC_4.png;." MAIN.py
+Linux: pyinstaller --onefile --add-data="seed-seeding.gif:." --add-data="farming-farm.gif:." --add-data="RSC_0.png:." --add-data="RSC_1.png:." --add-data="RSC_2.png:." --add-data="RSC_3.png:." --add-data="RSC_4.png:." MAIN.py

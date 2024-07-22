@@ -1,0 +1,18 @@
+Proyecto problemas tipicos de sincronizacion de procesos >>>> Por Daryll Lorenzo Alfonso #22 G-21 Informatica
+-Productor-consumidor
+-Barbero-dormilon
+-Lectores-escritores
+-Filosofos-comensales
+MainConsole seria la version de consola y MAIN_GUI la version con interfaz grafica.
+
+Dependencias utilizadas, solamente para las interfaces graficas utilicé tkinter, el resto de las bibliotecas son usuales en el modulo por defecto de Python, ya probe en Linux en un sistema instalado de fábrica sin las dependencias y funcionan bien los ejecutables.
+Si se necesitase para instalar Tkinter
+En Linux : 
+Debian y derivados
+sudo apt install python3-tk
+Windows:
+Me parece que era, abrir el cmd
+pip install python-tk
+
+Pero me parece que no es necesario, probé en Debian 12.6 con python 3.11.2 y funcionó sin problemas, tambien en OpenSuse Tumbleweed que es la distro de las capturas dentro de la carpeta Ejecutables_Linux.
+Para abrir los ejecutables en Linux dejé un .txt dentro de la carpeta explicando como abrirlos.
