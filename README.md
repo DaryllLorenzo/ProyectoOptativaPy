@@ -30,28 +30,28 @@ Tecnologías y Bibliotecas Utilizadas
 
 Los codigos están comentados, revisar MainConsole.py y MAIN.py dentro de GUI/MainFRAME.
 
-Problemas Clásicos de Sincronización:
+## Problemas Clásicos de Sincronización:
 
-1. Productor-Consumidor
+# 1. Productor-Consumidor:
 
-Descripción: Un productor genera datos y los coloca en un buffer. Un consumidor toma datos del buffer. La sincronización asegura que el productor no añada datos cuando el buffer está lleno y el consumidor no intente tomar datos cuando el buffer está vacío.
-
-
-2. Barbero Dormilón
-
-Descripción: En una barbería, un barbero corta el pelo de los clientes que llegan. Si no hay clientes, el barbero duerme. Si un cliente llega y el barbero está ocupado, el cliente espera en una silla. Si no hay sillas disponibles, el cliente se va.
+Un productor genera datos y los coloca en un buffer. Un consumidor toma datos del buffer. La sincronización asegura que el productor no añada datos cuando el buffer está lleno y el consumidor no intente tomar datos cuando el buffer está vacío.
 
 
-3. Lectores-Escritores
+# 2. Barbero Dormilón:
 
-Descripción: Varios lectores pueden leer simultáneamente un recurso compartido, pero un escritor debe tener acceso exclusivo. La sincronización asegura que ningún escritor escriba mientras un lector está leyendo y viceversa.
+En una barbería, un barbero corta el pelo de los clientes que llegan. Si no hay clientes, el barbero duerme. Si un cliente llega y el barbero está ocupado, el cliente espera en una silla. Si no hay sillas disponibles, el cliente se va.
 
 
-4. Filósofos Comensales
+# 3. Lectores-Escritores:
 
-Descripción: Cinco filósofos se sientan alrededor de una mesa con un plato de espaguetis y cinco tenedores. Para comer, un filósofo necesita dos tenedores. Los filósofos pasan por los estados de pensar, comer y hambrientos. La sincronización evita que se produzca un deadlock.
+Varios lectores pueden leer simultáneamente un recurso compartido, pero un escritor debe tener acceso exclusivo. La sincronización asegura que ningún escritor escriba mientras un lector está leyendo y viceversa.
 
-Implementación General:
+
+# 4. Filósofos Comensales:
+
+Cinco filósofos se sientan alrededor de una mesa con un plato de espaguetis y cinco tenedores. Para comer, un filósofo necesita dos tenedores. Los filósofos pasan por los estados de pensar, comer y hambrientos. La sincronización evita que se produzca un deadlock.
+
+## Implementación General:
 
 - Uso de Semáforos y Funciones acquire(como un down() ) y release(como un up() ) :
 Para manejar la concurrencia y sincronización de procesos, se utilizó la biblioteca threading de Python, que proporciona semáforos y otras primitivas de sincronización. Los semáforos son utilizados para controlar el acceso a los recursos compartidos y asegurar que se respeten las restricciones de concurrencia. Las funciones acquire y release de los semáforos se usan para bloquear y desbloquear el acceso a estos recursos.
@@ -74,8 +74,8 @@ La interfaz gráfica desarrollada con Tkinter permite visualizar la simulación 
 
 
 
-Cómo Ejecutar el Proyecto:
--    Instalar Dependencias: No se requieren dependencias externas adicionales, ya que se utilizan bibliotecas estándar de Python.
+## Cómo Ejecutar el Proyecto:
+-    Instalar Dependencias: No se requieren dependencias externas adicionales, ya que se utilizan bibliotecas estándar de Python. Solo se requiere Streamlit si se desea ver el README.py que es el README utilizando Streamlit.
 -    Ejecutar la Simulación por archivos .py:
         Para la versión CLI, navega al directorio correspondiente y ejecuta el archivo Python por la terminal o por el Visual Studio Code, MainConsole.py (el codigo esta comentado) o se puede ejecutar modular que estaria en la carpeta Version_modular_consola.
         Para la versión GUI, navega al directorio correspondiente y ejecuta el archivo Python por la terminal o por el Visual Studio Code, MAIN.py (el codigo esta comentado) dentro de la carpeta GUI/MainFRAME, o tambien se puede ejecutar modular.
@@ -84,6 +84,8 @@ Cómo Ejecutar el Proyecto:
 Además tenemos un archivo leer++.txt que abordo más acerca de la compatibilidad con los sistemas Linux y tal.
 
 
-Conclusión
+## Conclusión
 
 Este proyecto proporciona una herramienta interactiva para entender y visualizar problemas clásicos de sincronización de procesos en sistemas operativos. La combinación de interfaces de línea de comandos y gráficas facilita la comprensión tanto para principiantes como para usuarios más avanzados.
+
+## Imágenes del proyecto:
