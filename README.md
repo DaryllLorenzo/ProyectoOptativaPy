@@ -89,6 +89,42 @@ Además tenemos un archivo leer++.txt que abordo más acerca de la compatibilida
 Este proyecto proporciona una herramienta interactiva para entender y visualizar problemas clásicos de sincronización de procesos en sistemas operativos. La combinación de interfaces de línea de comandos y gráficas facilita la comprensión tanto para principiantes como para usuarios más avanzados.
 
 # Imágenes del proyecto:
+## Menú app con GUI
 ![Menú app con GUI](imagenes/menu.png)
-
+## Productor-Consumidor con GUI 1
 ![Productor-Consumidor con GUI 1](imagenes/pc1.png)
+## Productor-Consumidor con GUI 2
+![Productor-Consumidor con GUI 2](imagenes/pc2.png)
+## Barbero-Dormilón con GUI 1
+![Barbero-Dormilón con GUI 1](imagenes/bd1.png)
+## Barbero-Dormilón con GUI 2
+![Barbero-Dormilón con GUI 2](imagenes/bd2.png)
+## Lectores-Escritores con GUI 1
+![Lectores-Escritores con GUI 1](imagenes/le1.png)
+## Lectores-Escritores con GUI 2
+![Lectores-Escritores con GUI 2](imagenes/le2.png)
+## Lectores-Escritores con GUI 3
+![Lectores-Escritores con GUI 3](imagenes/le3.png)
+## Filósofos-Comensales con GUI 1
+![Filósofos-Comensales con GUI 1](imagenes/fc1.png)
+## Filósofos-Comensales con GUI 2
+![Filósofos-Comensales con GUI 2](imagenes/fc2.png)
+## Filósofos-Comensales con GUI 3
+![Filósofos-Comensales con GUI 3](imagenes/fc3.png)
+
+## Menú app CLI
+![Menú app CLI](imagenes/menuCLI.png)
+
+## Productor-Consumidor CLI 1
+![Productor-Consumidor CLI 1](imagenes/pc1CLI.png)
+## Productor-Consumidor CLI 2
+![Productor-Consumidor CLI 2](imagenes/pc2CLI.png)
+
+## Barbero-Dormilón CLI 1
+![Barbero-Dormilón CLI 1](imagenes/bd1CLI.png)
+
+## Lectores-Escritores CLI 1
+![Lectores-Escritores CLI 1](imagenes/le1CLI.png)
+
+## Filósofos-Comensales CLI 1
+![Filósofos-Comensales CLI 1](imagenes/fc1CLI.png)
