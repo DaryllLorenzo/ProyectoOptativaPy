@@ -1,6 +1,6 @@
 Proyecto Optativa de Python. Daryll Lorenzo Alfonso #22 G-21
 
-ESTE MISMO README también COMO README.py haciendo uso de LO APRENDIDO CON LA LIBRERIA Streamlit.
+ESTE MISMO README también COMO README.py en README_con_Streamlit/ haciendo uso de LO APRENDIDO CON LA LIBRERIA Streamlit.
 
 
 - Título: "Simulador de Problemas Clásicos de Sincronización de Procesos con Interfaz Gráfica"
