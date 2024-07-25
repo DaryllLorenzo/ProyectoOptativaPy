@@ -89,3 +89,6 @@ Además tenemos un archivo leer++.txt que abordo más acerca de la compatibilida
 Este proyecto proporciona una herramienta interactiva para entender y visualizar problemas clásicos de sincronización de procesos en sistemas operativos. La combinación de interfaces de línea de comandos y gráficas facilita la comprensión tanto para principiantes como para usuarios más avanzados.
 
 # Imágenes del proyecto:
+![Menú app con GUI](imagenes/menu.png)
+
+![Productor-Consumidor con GUI 1](imagenes/pc1.png)
